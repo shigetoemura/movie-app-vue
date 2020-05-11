@@ -9,7 +9,7 @@
       </section>
     </div>
     <div class="column is-4">
-      <img :src="imgUrl + details.backdrop_path" alt="">
+      <img :src="imgUrl + details.poster_path" alt="">
     </div>
   </div>
 </template>

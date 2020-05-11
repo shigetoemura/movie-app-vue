@@ -5,6 +5,7 @@ import NowShows from './components/shows/NowShows.vue'
 import PopularShows from './components/shows/PopularShows.vue'
 import TopShows from './components/shows/TopShows.vue'
 import Upcoming from './components/shows/Upcoming.vue'
+import ShowSearch from './components/search/ShowSearch.vue'
 
 
 Vue.use(Router)
@@ -13,7 +14,7 @@ export default new Router({
   mode: 'history',
   routes: [
     {
-      path: '/',
+      path: '/now_playing',
       component: NowShows
     },
     {
@@ -31,6 +32,10 @@ export default new Router({
     {
       path: '/upcoming',
       component: Upcoming
+    },
+    {
+      path: '/',
+      component: ShowSearch
     }
   ]
 })

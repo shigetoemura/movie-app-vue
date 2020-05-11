@@ -3,11 +3,11 @@
     <header class="header">
       <template>
         <div class="content-wrapper header-nav">
-          <h1>Movies App</h1>
+          <h1><router-link to="/">Movies App</router-link></h1>
           <nav>
             <ul>
               <li>
-                <router-link to="/">公開中の映画</router-link>
+                <router-link to="/now_playing">公開中の映画</router-link>
               </li>
               <li>
                 <router-link to="/popular">人気の映画</router-link>
@@ -28,7 +28,6 @@
 </template>
 
 <script>
-
 export default {
 
 }
