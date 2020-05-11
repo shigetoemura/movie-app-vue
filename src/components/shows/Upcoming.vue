@@ -7,6 +7,7 @@
             </div>
             <div class="card-content">
               <p class="title"><router-link :to="'/shows/' + movie.id">{{movie.title}}</router-link></p>
+              <p class="subtitle is-6">評価：{{ movie.vote_average }}</p>
             </div>
           </div>
       </div>
